@@ -1,0 +1,269 @@
+#-------------------------------
+# General Site Settings
+
+title: Sanghyun.Dev
+logo: 
+author: themefisher
+description: 안녕하세요 컴퓨터공학과 학부생 안상현 입니다.
+email: ansanghyun20@naver.com
+phone: +82
+address: 안동대학교
+copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+
+menu:
+- {name: About, link: '/about'}
+- {name: Blog, link: '/blog'}
+- {name: Portfolio, link: '/portfolio'}
+- {name: Contact, link: '/contact'}
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Hi! I’m <br> Sanghyun <br> App Developer
+
+social:
+- {icon: "ti-facebook", link: "#"}
+- {icon: "ti-instagram", link: "#"}
+- {icon: "ti-github", link: "#"}
+
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb:
+  안녕하세요 컴퓨터공학과 학부생 안상현입니다. C, JAVA, Python, JSP, MySQL 등을 사용한 개발 경험과 Android(java) 개발 경험이 있습니다. 현재 앱 개발자를 희망하고 있습니다.
+
+blurb-btn-link: '/about'
+blurb-btn-name: know more
+
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title : "Research and Plan"
+    icon : "assets/images/icons/plan.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Design and Develop"
+    icon : "assets/images/icons/design.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Deliver"
+    icon : "assets/images/icons/print.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+
+# My Team Section
+#team:
+  #- title : "Jack Schenziwe"
+    #image : "assets/images/team/member-1.png"
+    #designation : "Project Manager"
+    
+  #- title : "Julias Carlie"
+    #image : "assets/images/team/member-2.png"
+    #designation : "Web Developer"
+    
+  #- title : "John Doe"
+   # image : "assets/images/team/member-3.png"
+    #designation : "Designer"
+
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+- {name: Java, color: '#fdb157', value: '90%'}
+- {name: C, color: '#9473e6', value: '80%'}
+- {name: Python, color: '#bdecf6', value: '70%'}
+- {name: Database, color: '#ffbcaa', value: '80%'}
+- {name: Swift, color: '#ffbcaa', value: '10%'}
+- {name: jsp, color: '#adff2f', value: '50%'}
+- {name: Linux, color: '#fff000', value: '80%'}
+
+#-------------------------------
+# Exprerience Section
+
+experience-title: Experience
+experience:
+- {name: Computer Engineering, icon: 'icon-1.png', date: 'Mar 2016 - Feb 2022', organization: '안동대학교'}
+- {name: Intern, icon: 'icon-2.png', date: 'Jul 2020 - Sep 2020', organization: '(주)시그너스'}
+#- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+
+
+#-------------------------------
+# Education Section
+
+education-title: Activities #Education
+education:
+- {name: 소프트웨어 개발양성 과정 960h, date: '2021', organization: '한국품질재단'}
+- {name: BLE-안드로이드 통신 논문 작성, date: '2020', organization: '한국멀티미디어학회'}
+- {name: 좌표와 가중치를 이용한 숫자 검출 논문 작성, date: '2020', organization: '한국멀티미디어학회'}
+- {name: AMP를 이용한 아두이노와 웹서버통신 논문 작성, date: '2020', organization: '한국멀티미디어학회'}
+
+
+#-------------------------------
+# Services Section
+
+services-title: Certificate
+services:
+- {
+    name: 정보처리기사,
+    icon: ti-palette,
+    description: '자격증  2021.06  한국산업인력공단',
+    active: # Add true to select section
+  }
+- {
+    name: 2020 모형차 자율주행 경진대회 동상,
+    icon: ti-vector,
+    description: '수상내역. 2020.08. 한동대학교 SW중심대학지원사업단장',
+    active: # Add true to select section
+  }
+#- {
+    #name: Interaction Design,
+    #icon: ti-panel,
+    #description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    #active: # Add true to select section
+  #}
+
+
+
+#-------------------------------
+# Portfolio (Section and Page)
+
+# Portfolio Home Section
+portfolio-home-items:
+  - image : "assets/images/portfolio/bus.png"
+    url: "https://github.com/ansanghyun20/Bus_Reservation_P"
+    
+  - image : "assets/images/portfolio/ble.png"
+    url: "https://github.com/ansanghyun20/android_temp"
+    
+  - image : "assets/images/portfolio/R_qnstjr.png"
+    url: "https://github.com/ansanghyun20/Covid19_in_korea_R_LAN"
+    
+  - image : "assets/images/portfolio/pishing.png"
+    url: "https://github.com/ansanghyun20/JSP_Pishing_Escape_Project"
+    
+  - image : "assets/images/portfolio/item-5.png"
+    url: "#"
+
+
+# Portfolio Page
+portfolio-label:
+- {
+    title : "APP",
+    type : "app"
+  }
+- {
+    title : "PROGRAM",
+    type : "program"
+  }
+- {
+    title : "WEB",
+    type : "web"
+  }
+
+portfolio-items:
+  - image : "assets/images/portfolio/bus.png"
+    url: "https://github.com/ansanghyun20/Bus_Reservation_P"
+    portfolio-type:
+     - type: "program"
+      
+  - image : "assets/images/portfolio/ble.png"
+    url: "https://github.com/ansanghyun20/android_temp"
+    portfolio-type:
+      - type: "app"
+      
+  - image : "assets/images/portfolio/R_qnstjr.png"
+    url: "https://github.com/ansanghyun20/Covid19_in_korea_R_LAN"
+    portfolio-type:
+      - type: "app"
+      
+  - image : "assets/images/portfolio/pishing.png"
+    url: "https://github.com/ansanghyun20/JSP_Pishing_Escape_Project"
+    portfolio-type:
+      - type: "app"
+
+
+
+#-------------------------------
+# Testimonials Section
+
+#testimonial-items:
+  #- name: "Jesica Gomez"
+    #image: "assets/images/testimonial/client-1.png"
+    #designation : "CEO, Funder"
+    #content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    
+  #- name: "Jesica Gomez"
+    #image: "assets/images/testimonial/client-1.png"
+    #designation: "CEO, Funder"
+    #content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    
+  #- name: "Jesica Gomez"
+    #image: "assets/images/testimonial/client-1.png"
+    #designation: "CEO, Funder"
+    #content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+
+#-------------------------------
+# Client Slider Section
+
+#client-slider-items:
+  #- logo: "assets/images/clients-logo/client-logo-1.png"
+    #url: "#"
+    
+  #- logo: "assets/images/clients-logo/client-logo-2.png"
+    #url: "#"
+    
+  #- logo: "assets/images/clients-logo/client-logo-3.png"
+    #url: "#"
+    
+  #- logo: "assets/images/clients-logo/client-logo-4.png"
+    #url: "#"
+    
+  #- logo: "assets/images/clients-logo/client-logo-5.png"
+    #url: "#"
+    
+  #- logo: "assets/images/clients-logo/client-logo-1.png"
+    #url: "#"
+    
+  #- logo: "assets/images/clients-logo/client-logo-2.png"
+    #url: "#"
+    
+  #- logo: "assets/images/clients-logo/client-logo-3.png"
+    #url: "#"
+    
+  #- logo: "assets/images/clients-logo/client-logo-4.png"
+    #url: "#"
+    
+  #- logo: "assets/images/clients-logo/client-logo-5.png"
+    #url: "#"
+
+#-------------------------------
+# Contact Section
+
+contact-title: Contact Info
+contact-email: ansanghyun20@naver.com
