@@ -51,7 +51,7 @@ social:
 
 # About Section
 blurb:
-  안녕하세요 컴퓨터공학과 학부생 안상현입니다. C, JAVA, Python, JSP, MySQL 등을 사용한 개발 경험과 Android(java) 개발 경험이 있습니다. 현재 앱 개발자를 희망하고 있습니다.
+   C, JAVA, Python, JSP, MySQL 등을 사용한 개발 경험과 Android(java) 개발 경험이 있습니다. 현재 앱 개발자를 희망하고 있습니다.
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -199,12 +199,12 @@ portfolio-items:
   - image : "assets/images/portfolio/R_qnstjr.png"
     url: "https://github.com/ansanghyun20/Covid19_in_korea_R_LAN"
     portfolio-type:
-      - type: "app"
+      - type: "R"
       
   - image : "assets/images/portfolio/pishing.png"
     url: "https://github.com/ansanghyun20/JSP_Pishing_Escape_Project"
     portfolio-type:
-      - type: "app"
+      - type: "web"
 
 
 
